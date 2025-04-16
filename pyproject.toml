@@ -1,0 +1,22 @@
+[project]
+name = "detection-faux-billets"
+version = "0.1.0"
+description = "Algorithme de détection de faux billets"
+authors = [
+    {name = "Jeremie Queret"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mlflow>=2.21.3",
+    "pandas>=2.2.3",
+    "plotly>=6.0.1",
+    "scikit-learn>=1.6.1",
+    "streamlit>=1.44.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>= 22.0.0",
+    "pytest>=7.0.0"
+]
