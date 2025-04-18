@@ -21,6 +21,7 @@ RUN uv pip install .
 COPY model/ model/
 COPY src/ src/
 COPY api/ api
+COPY notebook/ notebook
 
 
 EXPOSE 8501
